@@ -1,0 +1,87 @@
+* {
+    /* Reset */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Padronização de cores e fonte*/
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b1c30;
+    color: #fff;
+}
+
+/* Margem e tamanho da imagem (LOGO) */
+.caixa {
+    margin-top: 65px;
+}
+
+.caixa img {
+    width: 180px;
+}
+
+ /* Centralização dos itens e textos*/
+#login {
+    text-align: center;  
+}
+
+/* Padronização dos campos do formulário (inputs, links e botões) */
+.nome input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    padding-left: 15px;
+    background-color: #292a38;
+    color: #96979e;
+}
+
+.e-mail input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    padding-left: 15px;
+    background-color: #292a38;
+    color: #96979e;
+    margin-top: 15px;
+}
+
+.senha input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    padding-left: 15px;
+    background-color: #292a38;
+    color: #96979e;
+    margin-top: 15px;
+}
+
+.confirme-senha input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    padding-left: 15px;
+    background-color: #292a38;
+    color: #96979e;
+    margin-top: 15px;
+}
+
+.cadastrar input {
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #77c97c;
+    color: #1b1c30;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
