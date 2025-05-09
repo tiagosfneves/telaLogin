@@ -21,8 +21,8 @@ body {
  /* Centralização dos itens e textos*/
 #login {
     text-align: center;
-    justify-content: center;
-    align-items: center;    
+    /* justify-content: center;
+    align-items: center; (Propriedades inúteis sem Flex Box) */      
 }
 
 .email input {
