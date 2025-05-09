@@ -23,10 +23,10 @@ Os seguintes comandos Git foram utilizados para inicializar o repositório local
 
 ```bash
 git init
-git add .
-git commit -m "primeiro commit"
+git add NOME_DO_ARQUIVO
+git commit -m "COMENTE O QUE FOI FEITO..."
 git branch -M main
-git remote add origin [https://github.com/tiagosfneves/telaLogin.git](https://github.com/tiagosfneves/telaLogin.git)
+git remote add origin URL_DO_SEU_GITHUB
 git push -u origin main
 ````
 
